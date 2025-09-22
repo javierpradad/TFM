@@ -1,0 +1,17 @@
+* text=auto eol=lf
+
+# Notebooks: fuerza LF
+*.ipynb text eol=lf
+
+# Scripts típicos
+*.py   text eol=lf
+*.sh   text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.csv  text eol=lf
+
+# Si tienes archivos que SÍ deben ir en CRLF (raro, pero posible):
+# *.bat text eol=crlf
+# *.cmd text eol=crlf
